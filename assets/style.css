@@ -1,0 +1,75 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+  
+
+.jumbotron {
+    border-radius: 0;
+}
+  
+
+#search-bar {
+    border-radius: 0;
+    height: 100%;
+}
+  
+.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: none;
+}
+  
+#search-history {
+    max-height: 200px;
+    overflow-y: auto;
+}
+  
+
+#city-info {
+    background-color: #fff;
+    border-radius: 0;
+    height: 100%;
+}
+  
+#start-text {
+    border: 2px dashed #c0c0c0;
+    color: #c0c0c0;
+}
+  
+.card-header {
+    background-color: #17a2b8;
+    color: #fff;
+}
+  
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+#error {
+    display: none;
+    margin-top: 10px;
+}
+  
+#error.show {
+    display: block;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.fa-search {
+    margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+    #dashboard {
+      flex-direction: column-reverse;
+    }
+  
+    #search-bar {
+      margin-bottom: 20px;
+    }
+}
